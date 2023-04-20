@@ -1,0 +1,33 @@
+<!DOCTYPE html> 
+<html lang="en-gb">
+<head>
+<title>Quiz</title>
+<link rel="stylesheet" href="style.css"> 
+
+</head>
+<body>
+<form name="Quiz">
+<label for="name">Enter your name: </label><input type="text" name="name" size="30">
+<p>What percentage of businesses in Greater Manchester believe developers will be key to their growth over the next three years?</p>
+<input type="radio" name="growth" value="30%">
+<label for="30%">30%</label><br>
+<input type="radio" name="growth" value="50%">
+<label for="50%">50%</label><br>
+<input type="radio" name="growth" value="60%">
+<label for="60%">60%</label><br>
+<input type="radio" name="growth" value="70%">
+<label for="70%">70%</label><br>
+<br>
+<label for="talent">What percentage of businesses report a lack of experienced and quality talent as the biggest productivity challenge?</label>
+<input type="number" name="talent" min="0" max="100" step="10">
+
+</form>
+
+<button type="button" onclick="checkAnswer()">Submit</button>
+
+<script src="script.js"></script>
+</body>
+
+
+
+</html>
