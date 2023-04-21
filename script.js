@@ -14,7 +14,7 @@ function checkAnswer() {
         score = score + 1;  
     }
     answer2 = quiz.talent.value;
-    if (answer2 == "50") {
+    if (answer2 == "20") {
         score = score + 1; 
     } 
     userName = quiz.name.value; 
