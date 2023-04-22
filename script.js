@@ -25,6 +25,10 @@ function checkAnswer() {
     if (answer4 == "2019") {
         score = score + 1;
     }
+    answer5 = quiz.moron.value;
+    if (answer5 == "2017") {
+        score = score + 1;
+    }
     userName = quiz.name.value;
 alert ("Well done, " + userName + "your score was..." + score); 
 }
