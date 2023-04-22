@@ -17,6 +17,10 @@ function checkAnswer() {
     if (answer2 == "20") {
         score = score + 1; 
     } 
+    answer3 = quiz.payment.value;
     userName = quiz.name.value; 
+    if (answer3 == "80") {
+        score = score + 1;
+    }
 alert ("Well done, " + userName + "your score was..." + score); 
 }
