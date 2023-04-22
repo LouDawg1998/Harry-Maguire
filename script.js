@@ -17,10 +17,14 @@ function checkAnswer() {
     if (answer2 == "20") {
         score = score + 1; 
     } 
-    answer3 = quiz.payment.value;
-    userName = quiz.name.value; 
+    answer3 = quiz.payment.value; 
     if (answer3 == "80") {
         score = score + 1;
     }
+    answer4 = quiz.idiot.value;
+    if (answer4 == "2019") {
+        score = score + 1;
+    }
+    userName = quiz.name.value;
 alert ("Well done, " + userName + "your score was..." + score); 
 }
