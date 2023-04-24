@@ -5,10 +5,11 @@ p {
     color: rgb(255, 0, 0);
     background-color: white;
   }
-  .yellow {color: rgb(255, 0, 0);}
-  #standout {
+  .yellow {
+      color: rgb(255, 0, 0);
     font-size: larger;
   }
+
   body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(255, 255, 255);
@@ -95,4 +96,7 @@ overflow: auto;
 }
 #Louis {
   max-height: 200px;
+}
+#heading {
+    color: 255, 0 , 0;
 }
