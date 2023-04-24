@@ -2,7 +2,7 @@ function finishFunction() {
     alert("Thank you for completing the quiz.")
 }
 
-function checkAnswer() {
+function checkAnswers() {
     var score = 0; 
     // assign the quiz elements to the quiz variable 
     quiz = document.forms.Quiz.elements; 
@@ -29,6 +29,10 @@ function checkAnswer() {
     if (answer5 == "2017") {
         score = score + 1;
     }
-    userName = quiz.name.value;
-alert ("Well done, " + userName + "your score was..." + score); 
+    if (score == 5) {
+alert ("Congratulations! You know all there needs to be know about the GOAT Harry Maguire!");
+    }
+else {
+    alert ("Your score is " + score + ". You made a mistake or two but that's ok, even the GOAT makes mistakes sometimes");
+}
 }
